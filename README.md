@@ -1,7 +1,8 @@
 # InteractiveModal
-
 An interactive Modal View Controller like Apple's iOS 13 Action sheet modal 
 
+[![Swift Version][swift-image]][swift-url]
+[![License][license-image]][license-url]
 
 ## Usage
 
