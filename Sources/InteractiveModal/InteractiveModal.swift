@@ -12,7 +12,7 @@ import UIKit
 
 open class InteractiveModalViewController: InteractiveController {
     internal let controller: UIViewController
-    init(controller: UIViewController) {
+    public init(controller: UIViewController) {
         self.controller = controller
         super.init(activityItems: [], applicationActivities: nil)
     }
