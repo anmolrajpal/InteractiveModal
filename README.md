@@ -3,6 +3,7 @@ An interactive Modal View Controller like Apple's iOS 13 Action sheet modal
 
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Usage
 
@@ -10,6 +11,21 @@ An interactive Modal View Controller like Apple's iOS 13 Action sheet modal
 let controllerToPresent = UIViewController()
 let presenter = InteractiveModalViewController(controller: controllerToPresent)
 present(presenter, animated: true, completion: nil)
+```
+
+## Requirements
+
+- iOS 13.0+
+- Xcode 11
+
+## Installation
+
+### Swift Package Manager:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/anmolrajpal/InteractiveModal", from: "1.0.0")
+]
 ```
 
 
